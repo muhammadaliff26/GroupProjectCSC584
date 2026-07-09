@@ -45,7 +45,7 @@
                     <input type="password" class="form-control" name="password" required>
                 </div>
                 <div class="mb-3">
-                    <label class="form-label">Confirm Password</label>
+                    <label class="form-label">Confirm Your Password</label>
                     <input type="password" class="form-control" name="confirmPassword" required>
                 </div>
                 <button type="submit" class="btn btn-unirun w-100">

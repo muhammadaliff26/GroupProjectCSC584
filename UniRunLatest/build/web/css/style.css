@@ -1,0 +1,57 @@
+/* Uni-Run custom styling on top of Bootstrap */
+:root {
+    --unirun-primary: #ff6b35;
+    --unirun-dark: #1b2a41;
+}
+
+body {
+    background-color: #f4f6f9;
+}
+
+.navbar-unirun {
+    background-color: var(--unirun-dark);
+}
+
+.navbar-unirun .navbar-brand,
+.navbar-unirun .nav-link {
+    color: #ffffff !important;
+    font-weight: 600;
+}
+
+.navbar-unirun .nav-link:hover {
+    color: var(--unirun-primary) !important;
+}
+
+.btn-unirun {
+    background-color: var(--unirun-primary);
+    border-color: var(--unirun-primary);
+    color: #fff;
+}
+
+.btn-unirun:hover {
+    background-color: #e35b28;
+    border-color: #e35b28;
+    color: #fff;
+}
+
+.card-stat {
+    border-left: 5px solid var(--unirun-primary);
+}
+
+.auth-wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, var(--unirun-dark), var(--unirun-primary));
+}
+
+.auth-card {
+    max-width: 420px;
+    width: 100%;
+}
+
+.status-badge-UPCOMING, .status-badge-PENDING { background-color: #ffc107; }
+.status-badge-CONFIRMED, .status-badge-COMPLETED { background-color: #28a745; }
+.status-badge-CANCELLED { background-color: #dc3545; }
+.status-badge-ONGOING { background-color: #17a2b8; }

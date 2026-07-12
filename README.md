@@ -32,10 +32,10 @@ Relationships: USERS (1)—(M) RUN_EVENTS (created_by, admin only); CATEGORIES (
 ### Step A — Create the JavaDB database
 1. Open NetBeans → **Services** tab → **Databases** → right-click **Java DB** → **Start Server** (if not already running).
 2. Right-click **Java DB** → **Create Database…**
-   - Database Name: `UniRunDB`
+   - Database Name: `UniRunDB1`
    - User Name: `app`
    - Password: `app`
-3. This creates a connection like `jdbc:derby://localhost:1527/UniRunDB`. It should appear under Databases automatically (right-click it → Connect if not already connected).
+3. This creates a connection like `jdbc:derby://localhost:1527/UniRunDB1`. It should appear under Databases automatically (right-click it → Connect if not already connected).
 4. Right-click the new connection → **Execute Command…** → open `sql/create_database.sql` from this project (or paste its contents) → run it (▷ Run SQL). This creates the 4 tables and inserts sample data (an admin account `admin`/`admin123` and a participant `john`/`john123`).
 
 ### Step B — Create the NetBeans project and copy in the code
